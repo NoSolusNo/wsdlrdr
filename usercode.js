@@ -1,6 +1,6 @@
 const Wsdlrdr = require("wsdlrdr");
 const params = {
-    host: 'api-tt.belavia.by',
+    host: 'http://api-tt.belavia.by/',
     wsdl: '/TimeTable/Service.asmx?WSDL'
 };
 
