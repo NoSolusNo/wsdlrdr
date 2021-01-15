@@ -1,4 +1,4 @@
-require("wsdlrdr");
+const Wsdlrdr = require("wsdlrdr");
 const params = {
     host: 'api-tt.belavia.by',
     wsdl: '/TimeTable/Service.asmx?WSDL'
@@ -10,5 +10,5 @@ const options = {
 };
 
 module.exports = (data) => {
-    data.test = wsdlrdr.getNamespaces();
+    data.test = Wsdlrdr.getNamespaces(params, options);
 };
