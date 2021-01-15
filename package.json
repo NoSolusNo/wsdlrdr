@@ -4,7 +4,7 @@
   "description": "a simple wsdl parser, with promises",
   "main": "./src/index.js",
   "dependencies": {
-    "request": "^2.88.0",
+    
     "xmldoc": "^1.1.2",
     "deepmerge": "^4.2.2"
   },
